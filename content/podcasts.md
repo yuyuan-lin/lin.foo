@@ -4,7 +4,7 @@ date = 2023-11-05T00:39:31-07:00
 draft = false
 +++
 
-![yxl](/static/podcast_logo.jpg)
+![yxl](/img/podcast_logo.jpg)
 
 羊乘林是一档专注于公共卫生领域的独立播客节目。每期会聚焦一个公共卫生领域的热门话题或知名人物，分享有趣的历史故事和专业知识。
 

@@ -13,6 +13,10 @@ enableEmoji = true
   defaultTheme = "auto"
   description = "Welcome to Yuyuan's site."
   
+[params.app]
+  svgFavicon = "favicon.svg"
+  title = "Yuyuan's site"
+
 [params.home]
   [params.home.profile]
     enable = true

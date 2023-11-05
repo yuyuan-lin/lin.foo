@@ -1,5 +1,6 @@
 baseURL = 'https://lin.foo/'
 theme = 'LoveIt'
+title = "Welcome to Yuyuan's site"
 
 enableEmoji = true
 
@@ -29,13 +30,18 @@ hasCJKLanguage = true
 [menu]
   [[menu.main]]
     weight = 1
-    title = "Welcome to Yuyuan's site"
-    [[languages.en.menu.main]]
-      weight = 1
-      identifier = "podcasts"
-      pre = ""
-      post = ""
-      name = "Podcasts"
-      url = "/podcasts/"
-      title = ""
-
+    identifier = "podcasts"
+    pre = ""
+    post = ""
+    name = "Podcasts"
+    url = "/podcasts/"
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    

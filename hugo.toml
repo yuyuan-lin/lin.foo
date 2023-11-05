@@ -2,7 +2,24 @@ baseURL = 'https://lin.foo/'
 theme = 'LoveIt'
 title = "Welcome to Yuyuan's site"
 
+[author]
+  name = "Yuyuan Lin"
+  email = "yuyuan@lin.foo"
+  link = "https://lin.foo"
+
 enableEmoji = true
+
+[params]
+  defaultTheme = "auto"
+  description = "Welcome to Yuyuan's site."
+  
+[params.home]
+  [params.home.profile]
+    enable = true
+    avatarUrl = "/img/lin_avatar.png"
+    title = ""
+    subtitle = "Welcome to Yuyuan's site, while it's still under construction."
+    
 
 # Header config
 [params.header]
@@ -12,7 +29,7 @@ enableEmoji = true
   mobileMode = "auto"
   [params.header.title]
     # URL of the LOGO
-    logo = ""
+    logo = "/img/lin_logo.png"
     # title name
     name = "Yuyuan's site"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -21,6 +38,13 @@ enableEmoji = true
     post = ""
     # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
     typeit = false
+    
+# footer config
+[params.footer]
+  enable = true
+  hugo = false
+  author = true
+  since = 2023
 
 # multi languages
 languageCode = "en"

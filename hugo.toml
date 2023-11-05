@@ -1,4 +1,41 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://lin.foo/'
 theme = 'LoveIt'
+
+enableEmoji = true
+
+# Header config
+[params.header]
+  # desktop header mode ["fixed", "normal", "auto"]
+  desktopMode = "fixed"
+  # mobile header mode ["fixed", "normal", "auto"]
+  mobileMode = "auto"
+  [params.header.title]
+    # URL of the LOGO
+    logo = ""
+    # title name
+    name = "Yuyuan's site"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+    typeit = false
+
+# multi languages
+languageCode = "en"
+languageName = "English"
+hasCJKLanguage = true
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    title = "Welcome to Yuyuan's site"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "podcasts"
+      pre = ""
+      post = ""
+      name = "Podcasts"
+      url = "/podcasts/"
+      title = ""
+

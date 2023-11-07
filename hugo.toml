@@ -18,6 +18,8 @@ enableEmoji = true
   title = "Yuyuan's site"
 
 [params.home]
+  [params.home.posts]
+      enable = false
   [params.home.profile]
     enable = true
     avatarUrl = "/img/lin_avatar.png"
@@ -58,11 +60,19 @@ hasCJKLanguage = true
 [menu]
   [[menu.main]]
     weight = 1
-    identifier = "recipes"
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = "分类"
+  [[menu.main]]
+    weight = 2
+    identifier = "Recipes"
     pre = ""
     post = ""
     name = "Recipes"
-    url = "/recipes/"
+    url = "/categories/recipes/"
     title = "食单"
   [[menu.main]]
     weight = 4
@@ -89,7 +99,7 @@ hasCJKLanguage = true
   # max index length of the chunked content
   contentLength = 4000
   # placeholder of the search bar
-  placeholder = ""
+  placeholder = "Search for contents..."
   # LoveIt NEW | 0.2.1 max number of results length
   maxResultLength = 10
   # LoveIt NEW | 0.2.3 snippet length of the result
@@ -102,3 +112,14 @@ hasCJKLanguage = true
     index = ""
     appID = ""
     searchKey = ""
+    
+# global share setting
+[params.page.share]
+  enable = true
+  Twitter = true
+  Facebook = true
+  Linkedin = false
+  Whatsapp = true
+  HackerNews = false
+  Line = true
+  Weibo = true

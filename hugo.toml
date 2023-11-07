@@ -91,7 +91,9 @@ hasCJKLanguage = true
     url = "/about/"
     title = "关于我"
     
-    
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
 [params.search]
   enable = true
   # type of search engine ["lunr", "algolia"]

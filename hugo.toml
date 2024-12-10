@@ -68,6 +68,14 @@ hasCJKLanguage = true
     title = "分类"
   [[menu.main]]
     weight = 2
+    identifier = "Epinotes"
+    pre = ""
+    post = ""
+    name = "Epidemiology"
+    url = "/categories/Epinotes/"
+    title = "流行病学笔记"
+  [[menu.main]]
+    weight = 3
     identifier = "Recipes"
     pre = ""
     post = ""
@@ -125,3 +133,7 @@ hasCJKLanguage = true
   HackerNews = false
   Line = true
   Weibo = true
+
+# math 
+[params.math]
+  enable = true

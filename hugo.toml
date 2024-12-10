@@ -135,5 +135,9 @@ hasCJKLanguage = true
   Weibo = true
 
 # math 
-[params.math]
+[params.page.math]
   enable = true
+
+# disable TOC
+[params.page.toc]
+  enable = false

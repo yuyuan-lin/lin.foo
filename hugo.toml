@@ -2,7 +2,7 @@ baseURL = 'https://lin.foo/'
 theme = 'LoveIt'
 title = "Welcome to Yuyuan's site"
 
-[author]
+[params.author]
   name = "Yuyuan Lin"
   email = "yuyuan@lin.foo"
   link = "https://lin.foo"
